@@ -1,0 +1,68 @@
+body {
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 11px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #f0f0f0; /* El color del fondo de la página web */
+    color: #333333; /* El color del texto*/ 
+}
+
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+
+h1 {
+    color: #5988FF; /* El color de la cabecera */
+    font-size: 28px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+
+
+h1{
+    animation: color-change 3s infinite;
+}
+
+h1:hover{
+    animation: color-change 3s infinite;
+}
+
+h2 { 
+    color: #FD98FB; /* El color de la cabecera */
+    font-size: 20px; /* El tamaño de la fuente de la cabecera */
+    font-family: Georgia, serif; /* La familia tipográfica utilizada en la cabecera */
+}
+
+h3 { 
+    color: #94bb31;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+p{
+    color: #000000;
+    font-size: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+.contenido_arriba{
+    background-color: #94bb31;
+}
+
+.contenido_abajo{
+    background-color: #000000;
+}
+
+.contra{
+    background-color:#5988FF;
+}
